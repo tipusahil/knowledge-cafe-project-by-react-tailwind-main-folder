@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.pinimg.com/736x/78/18/ff/7818ff7870ad391fca41f00c88f4cf36.jpg",
+      "title": "The Hidden Algorithm",
+      "author": "John Doe",
+      "author_img": "https://i.pinimg.com/736x/71/26/ff/7126ff2527c14b37f02c52fcdcec5537.jpg",
+      "posted_date": "2025-03-25",
+      "reading_time": "8",
+      "hashtags": ["#AI", "#MachineLearning", "#Technology"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.pinimg.com/736x/5a/08/9d/5a089d57706da62357a3f485f33d9fbc.jpg",
+      "title": "The Lost Pages",
+      "author": "Emma Watson",
+      "author_img": "https://i.pinimg.com/736x/96/5a/68/965a683f9969196a7072aeacaaa2139f.jpg",
+      "posted_date": "2025-03-24",
+      "reading_time": "1",
+      "hashtags": ["#Mystery", "#Books", "#Storytelling"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.pinimg.com/736x/36/39/15/36391518fdb85f1bfa77bec4f23b54ac.jpg",
+      "title": "JavaScript Mastery",
+      "author": "Alex Smith",
+      "author_img": "https://i.pinimg.com/736x/cb/71/28/cb71287a41c3695f272266b319d53b94.jpg",
+      "posted_date": "2025-03-23",
+      "reading_time": "1",
+      "hashtags": ["#JavaScript", "#WebDevelopment", "#Coding"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.pinimg.com/736x/05/48/e8/0548e86cc9c5c700b73c4034ba4cbbd5.jpg",
+      "title": "The Entrepreneur’s Guide",
+      "author": "Sophia Johnson",
+      "author_img": "https://i.pinimg.com/736x/2b/94/0a/2b940a90860215d5b7e25e86ed970790.jpg",
+      "posted_date": "2025-03-22",
+      "reading_time": "1",
+      "hashtags": ["#Entrepreneurship", "#Business", "#Success"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.pinimg.com/736x/83/6e/2e/836e2ec518056c18b7dd99f3adc1b2dd.jpg",
+      "title": "Exploring the Cosmos",
+      "author": "David Wilson",
+      "author_img": "https://i.pinimg.com/736x/d9/3f/83/d93f83d2aa311fda2bda0cc9a95b6674.jpg",
+      "posted_date": "2025-03-21",
+      "reading_time": "9",
+      "hashtags": ["#Space", "#Science", "#Astronomy"]
+    }
+  ]
+  
