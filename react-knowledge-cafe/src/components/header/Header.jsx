@@ -18,14 +18,14 @@ const Header = () => {
 
 
     return (
-        <div className="">
-<div className="navbar p-4 flex justify-between items-center border-b-2 border-gray-400 mx-4">
+        <header className="">
+<nav className="navbar p-4 flex justify-between items-center border-b-2 border-gray-400 mx-4">
 <h1 className='text-4xl text-green-600'>Knowledge cafe</h1>
 <img src={Profile} alt="" />
-</div>
+</nav>
             {/* <h2>i am header from header component & i have called from app.jsx</h2> */}
 
-        </div>
+        </header>
 
     );
 };
