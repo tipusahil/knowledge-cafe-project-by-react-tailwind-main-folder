@@ -17,10 +17,10 @@ const Blogs = () => {
 
 
     return (
-        <div>
-<h2 className="text-4xl w-2/3">blogs compo</h2>
+        <div className="w-2/3 border border-blue-500">
+<h2 className="text-4xl ">blogs compo</h2>
             <div>
-                {blogs.map(blog => <Blog singleBlog={blog}></Blog>)}
+                {blogs.map(blog => <Blog key= {blog.id} singleBlog={blog}></Blog>)}
             </div>
 
         </div>

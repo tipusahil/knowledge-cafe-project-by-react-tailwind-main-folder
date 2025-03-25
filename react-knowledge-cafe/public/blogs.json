@@ -10,8 +10,18 @@
     "hashtags": ["#AI", "#MachineLearning", "#Technology"]
   },
   {
-    "id": 1002,
+    "id": 1004,
     "cover": "https://i.pinimg.com/736x/5a/08/9d/5a089d57706da62357a3f485f33d9fbc.jpg",
+    "title": "The Entrepreneur’s Guide",
+    "author": "Sophia Johnson",
+    "author_img": "https://i.pinimg.com/736x/2b/94/0a/2b940a90860215d5b7e25e86ed970790.jpg",
+    "posted_date": "2025-03-22",
+    "reading_time": "1",
+    "hashtags": ["#Entrepreneurship", "#Business", "#Success"]
+  },
+  {
+    "id": 1002,
+    "cover": "https://i.pinimg.com/736x/05/48/e8/0548e86cc9c5c700b73c4034ba4cbbd5.jpg",
     "title": "The Lost Pages",
     "author": "Emma Watson",
     "author_img": "https://i.pinimg.com/736x/96/5a/68/965a683f9969196a7072aeacaaa2139f.jpg",
@@ -29,16 +39,7 @@
     "reading_time": "1",
     "hashtags": ["#JavaScript", "#WebDevelopment", "#Coding"]
   },
-  {
-    "id": 1004,
-    "cover": "https://i.pinimg.com/736x/05/48/e8/0548e86cc9c5c700b73c4034ba4cbbd5.jpg",
-    "title": "The Entrepreneur’s Guide",
-    "author": "Sophia Johnson",
-    "author_img": "https://i.pinimg.com/736x/2b/94/0a/2b940a90860215d5b7e25e86ed970790.jpg",
-    "posted_date": "2025-03-22",
-    "reading_time": "1",
-    "hashtags": ["#Entrepreneurship", "#Business", "#Success"]
-  },
+ 
   {
     "id": 10005,
     "cover": "https://i.pinimg.com/736x/83/6e/2e/836e2ec518056c18b7dd99f3adc1b2dd.jpg",
