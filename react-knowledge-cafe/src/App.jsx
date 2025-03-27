@@ -48,10 +48,13 @@ setBookmarks(afterBookmarks);
     const [spentTime,setSpentTime] = useState(0);
 
     const spentTimeHanlder = newTime => {
-      console.log(newTime);
+   
+
+      const finalnewTime = parseInt(newTime);
+ console.log(finalnewTime);
 
       // set new time to useState
-      setSpentTime(spentTime + newTime);
+      setSpentTime(spentTime + finalnewTime);
       console.log(spentTime)
 
     }

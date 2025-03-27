@@ -10,11 +10,11 @@ const Bookmarks = ({ bookmarks, remove_handler ,spentTime }) => {
 
 
     return (
-        <div className="w-1/3 border border-gray-950">
+        <div className="w-1/3 border border-gray-950 p-4">
 
-            <div className="spentTime_container rounded-xl border-2 border-blue-400 text-2xl text-blue-400 w-full p-4">
+            <div className="spentTime_container rounded-xl border-2 border-blue-400 text-2xl text-blue-400 w-full p-4 mb-4">
 
-                
+                <h3>spent time on read <span>{spentTime}</span> min</h3>
             {/* spentTime */}
             </div>
 
