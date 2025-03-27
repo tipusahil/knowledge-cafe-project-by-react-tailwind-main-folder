@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Blog from "../SingleBlog/Blog";
-const Blogs = () => {
+
+
+const Blogs = ({handleBookmarks}) => {
 
     // -----------------json data fetching start here -------------
 
@@ -20,7 +22,11 @@ const Blogs = () => {
         <div className="w-2/3 border border-blue-500">
 <h2 className="text-4xl ">blogs compo</h2>
             <div>
-                {blogs.map(blog => <Blog key= {blog.id} singleBlog={blog}></Blog>)}
+                {blogs.map(blog => <Blog 
+                key= {blog.id}
+                 singleBlog={blog}
+                 handleBookmarks={handleBookmarks}
+                ></Blog>)}
             </div>
 
         </div>

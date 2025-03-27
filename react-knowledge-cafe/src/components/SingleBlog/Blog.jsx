@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
+import { MdBookmarkAdded } from "react-icons/md";
 
-
-const Blog = ({ singleBlog }) => {
+const Blog = ({ singleBlog , handleBookmarks }) => {
 
     const { id, cover, author_img, title, author, posted_date, reading_time, hashtags } = singleBlog;
-    console.log(singleBlog)
+    // console.log(singleBlog)
 
 
 
@@ -20,16 +20,16 @@ const Blog = ({ singleBlog }) => {
                 <div className="profile_side flex items-center ">
                     <img className='size-14 rounded-full' src={author_img} alt="" />
 
-                    <div className="prodile_sid_content ml-4">
+                    <div className="profile_side_content ml-4">
                         <h3 className="text-xl font-semibold">{author}</h3>
                         <p>{title.slice(0, title.length - 1)}</p>
                     </div>
 
                 </div>
 
-                <div className="read_side">
+                <div className="read_side flex justify-center items-center space-x-2 ">
                     <h3><span className='bg-slate-300 rounded-lg p-1'> 0{reading_time}</span> min read</h3>
-                    <button>Bookmarks</button>
+                    <button onClick={ () => handleBookmarks(singleBlog)} className=' text-3xl'> <MdBookmarkAdded /> </button>
 
                 </div>
             </div>
@@ -38,8 +38,10 @@ const Blog = ({ singleBlog }) => {
                 <h3 className="text-4xl font-semibold ">{title}</h3>
                 <div className="hash_contain flex">
                     {hashtags.map((hash1, idx) => (
+                        
                         <div className="mr-2">
                             <h2> {idx + 1}. {hash1}</h2>
+                            
                         </div>
                     ))}
                 </div>
@@ -65,8 +67,10 @@ const Blog = ({ singleBlog }) => {
 };
 
 
+
 Blog.propTypes = {
     Blog: PropTypes.object.isRequired,
+    handleBookmarks: PropTypes.func.isRequired,
 
 }
 export default Blog;

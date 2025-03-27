@@ -10,7 +10,7 @@
     "hashtags": ["#AI", "#MachineLearning", "#Technology"]
   },
   {
-    "id": 1004,
+    "id": 1002,
     "cover": "https://i.pinimg.com/736x/5a/08/9d/5a089d57706da62357a3f485f33d9fbc.jpg",
     "title": "The Entrepreneur’s Guide",
     "author": "Sophia Johnson",
@@ -20,7 +20,7 @@
     "hashtags": ["#Entrepreneurship", "#Business", "#Success"]
   },
   {
-    "id": 1002,
+    "id": 1003,
     "cover": "https://i.pinimg.com/736x/05/48/e8/0548e86cc9c5c700b73c4034ba4cbbd5.jpg",
     "title": "The Lost Pages",
     "author": "Emma Watson",
@@ -30,7 +30,7 @@
     "hashtags": ["#Mystery", "#Books", "#Storytelling"]
   },
   {
-    "id": 1003,
+    "id": 1004,
     "cover": "https://i.pinimg.com/736x/36/39/15/36391518fdb85f1bfa77bec4f23b54ac.jpg",
     "title": "JavaScript Mastery",
     "author": "Alex Smith",
@@ -41,7 +41,7 @@
   },
  
   {
-    "id": 10005,
+    "id": 1005,
     "cover": "https://i.pinimg.com/736x/83/6e/2e/836e2ec518056c18b7dd99f3adc1b2dd.jpg",
     "title": "Exploring the Cosmos",
     "author": "David Wilson",
