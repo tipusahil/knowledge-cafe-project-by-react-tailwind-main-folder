@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Blog from "../SingleBlog/Blog";
 
 
-const Blogs = ({handleBookmarks}) => {
+const Blogs = ({handleBookmarks , spentTimeHanlder}) => {
 
     // -----------------json data fetching start here -------------
 
@@ -26,6 +26,7 @@ const Blogs = ({handleBookmarks}) => {
                 key= {blog.id}
                  singleBlog={blog}
                  handleBookmarks={handleBookmarks}
+                 spentTimeHanlder={spentTimeHanlder}
                 ></Blog>)}
             </div>
 

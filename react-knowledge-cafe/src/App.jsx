@@ -44,6 +44,19 @@ setBookmarks(afterBookmarks);
   }
   // --------------remove handler end here ------------------------
 
+// -----------------------spentTimeHanlder start here-----------------
+    const [spentTime,setSpentTime] = useState(0);
+
+    const spentTimeHanlder = newTime => {
+      console.log(newTime);
+
+      // set new time to useState
+      setSpentTime(spentTime + newTime);
+      console.log(spentTime)
+
+    }
+
+// -----------------------spentTimeHanlder end here-----------------
 
   return (
     <div className='border-2 border-gray-950 max-w-7xl mx-auto'>
@@ -54,9 +67,13 @@ setBookmarks(afterBookmarks);
       <Header></Header>
 
       <div className='blogs_container md:flex lg:flex justify-between w-[100%] border border-green-500'>
-        <Blogs handleBookmarks={handleBookmarks} ></Blogs>
+        <Blogs handleBookmarks={handleBookmarks} 
+        
+        spentTimeHanlder={spentTimeHanlder}
+        ></Blogs>
         <Bookmarks
          bookmarks={bookmarks}
+         spentTime={spentTime}
          remove_handler={remove_handler}
           ></Bookmarks>
       </div>

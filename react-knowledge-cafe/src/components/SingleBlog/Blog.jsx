@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { MdBookmarkAdded } from "react-icons/md";
 
-const Blog = ({ singleBlog , handleBookmarks }) => {
+const Blog = ({ singleBlog , handleBookmarks ,spentTimeHanlder }) => {
 
     const { id, cover, author_img, title, author, posted_date, reading_time, hashtags } = singleBlog;
     // console.log(singleBlog)
@@ -47,7 +47,7 @@ const Blog = ({ singleBlog , handleBookmarks }) => {
                 </div>
 
                 <div>
-                    <p><a className='underline text-blue-700' href="#">Mark as read</a></p>
+                   <button onClick={ () => spentTimeHanlder(reading_time)}><a className='underline text-blue-700' href="#">Mark as read</a></button>
                 </div>
             </div>
 
