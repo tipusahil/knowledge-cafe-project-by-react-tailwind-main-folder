@@ -3,7 +3,7 @@ import { MdBookmarkAdded } from "react-icons/md";
 
 const Blog = ({ singleBlog , handleBookmarks ,spentTimeHanlder }) => {
 
-    const { id, cover, author_img, title, author, posted_date, reading_time, hashtags } = singleBlog;
+    const { cover, author_img, title, author, reading_time, hashtags } = singleBlog;
     // console.log(singleBlog)
 
 
@@ -71,6 +71,7 @@ const Blog = ({ singleBlog , handleBookmarks ,spentTimeHanlder }) => {
 Blog.propTypes = {
     Blog: PropTypes.object.isRequired,
     handleBookmarks: PropTypes.func.isRequired,
+    spentTimeHanlder: PropTypes.func.isRequired,
 
 }
 export default Blog;

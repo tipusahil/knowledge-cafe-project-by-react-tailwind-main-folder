@@ -41,6 +41,7 @@ const afterBookmarks = bookmarks.filter(( bookmarked_Blogs ) => bookmarked_Blogs
 
 setBookmarks(afterBookmarks);
 
+console.log(`ei (${removeThisBookmark_Blog.id}) id wala item ta remove kora holo keble`);
   }
   // --------------remove handler end here ------------------------
 

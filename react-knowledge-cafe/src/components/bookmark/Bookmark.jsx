@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const Bookmark = ({ bookmark, remove_handler, idx }) => {
 
-    const { title, author, posted_date, reading_time, hashtags } = bookmark;
+    const { title } = bookmark;
 
     useEffect(() => {
         // setSpentTime(spentTime + reading_time)
